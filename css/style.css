@@ -1,0 +1,89 @@
+header {
+  position: sticky;
+  top: 0;
+}
+
+.head-layout {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  height: 100%;
+  min-height: 8rem;
+  background-color: #d35649;
+}
+
+nav {
+  color: white;
+  font-family: 'bpreplaybold', Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.nav-link,
+.nav-link:hover,
+.nav-link:visited,
+.nav-link:active {
+  color: white;
+}
+
+.nav-icon {
+  font-size: 1.2rem;
+}
+
+.nav-text {
+  display: none;
+}
+
+#top-logo {
+  padding-top: 0.6rem;
+  text-align: center;
+}
+
+.cover-search {
+  width: 100%;
+  height: 32rem;
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+  background-position: -160px center;
+}
+
+.how-it-works {
+  min-height: 32rem;
+}
+
+.features article {
+  min-height: 16rem;
+}
+
+.features article:first-child {
+  background-color: #d35649;
+}
+
+.features article:nth-child(2) {
+  background-color: #98a4a5;
+}
+
+.features article:last-child {
+  background-color: #519bd8;
+}
+
+footer div:first-child {
+  background-color: black;
+  min-height: 16rem;
+}
+
+footer div:last-child {
+  min-height: 8rem;
+  background-color: #1f1f1f;
+}
