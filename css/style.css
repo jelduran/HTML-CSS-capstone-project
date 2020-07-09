@@ -117,11 +117,8 @@ nav ul li {
   font-family: 'bpreplaybold', Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   text-transform: uppercase;
-  color: white;
-  padding: 0.5rem;
-  border: 0;
-  border-radius: 0.15rem;
-  background-color: #d35649;
+  color: white !important;
+  background-color: #d35649 !important;
 }
 
 .cover-button button {
@@ -212,6 +209,27 @@ nav ul li {
   background-color: white;
 }
 
+.filters button {
+  min-width: 8rem;
+  color: white;
+  background-color: orangered !important;
+  border-color: orangered !important;
+}
+
+.results article {
+  max-width: 20rem;
+  width: 100%;
+  height: 20rem;
+  margin: 1rem 0;
+  background-color: #d35649;
+  background-image: url(../img/dumbbell.png);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  text-align: center;
+  line-height: 20rem;
+}
+
 .features article:first-child {
   background-color: #d35649;
 }
@@ -267,6 +285,11 @@ footer {
   width: 100%;
   margin-bottom: 2rem;
   text-align: center;
+}
+
+.filters div {
+  width: 100% !important;
+  margin-bottom: 1rem;
 }
 
 footer div:first-child {
@@ -327,6 +350,22 @@ footer div:first-child {
   text-transform: uppercase;
 }
 
+.results a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-components p > a {
+  color: #d35649;
+}
+
+.results a:hover,
+.results a:visited,
+.results a:active {
+  color: white;
+}
+
 .footer-components p,
 .footer-bottom p {
   font-size: 1rem;
@@ -334,7 +373,6 @@ footer div:first-child {
   color: white;
 }
 
-.footer-components p > a,
 .footer-components p > a:hover,
 .footer-components p > a:visited,
 .footer-components p > a:active {
@@ -392,8 +430,6 @@ footer div:first-child {
   font-size: 0.75rem;
 }
 
-/* search page */
-
 .filters,
 .results {
   display: flex;
@@ -415,11 +451,6 @@ footer div:first-child {
   margin-bottom: 1rem;
 }
 
-.filters div {
-  width: 100% !important;
-  margin-bottom: 1rem;
-}
-
 .filters label {
   margin: 0;
   font-size: 1rem;
@@ -427,43 +458,13 @@ footer div:first-child {
   text-transform: uppercase;
 }
 
-.filters button {
-  color: white;
-}
-
 .results h5 {
   width: 100%;
   text-align: center;
 }
 
-.results article {
-  max-width: 20rem;
-  width: 100%;
-  height: 20rem;
-  margin: 1rem 0;
-  background-color: #d35649;
-  background-image: url(../img/dumbbell.png);
-  background-size: cover;
-  background-position: center center;
-  color: white;
-  text-align: center;
-  line-height: 20rem;
-}
-
 .results article span {
   font-family: 'bpreplayregular', Arial, Helvetica, sans-serif;
-}
-
-.results a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.results a:hover,
-.results a:visited,
-.results a:active {
-  color: white;
 }
 
 @media screen and (min-width: 577px) {
@@ -539,8 +540,8 @@ footer div:first-child {
 
   .button-search {
     width: 25%;
-    border-radius: 0 0.25rem 0.25rem 0;
-    background-color: #519bd7;
+    border-radius: 0 0.25rem 0.25rem 0 !important;
+    background-color: #519bd7 !important;
   }
 
   .cover-button button {
@@ -717,6 +718,6 @@ footer div:first-child {
   }
 
   .filters form div {
-    width: auto !important;
+    width: fit-content !important;
   }
 }
