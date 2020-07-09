@@ -392,6 +392,80 @@ footer div:first-child {
   font-size: 0.75rem;
 }
 
+/* search page */
+
+.filters,
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem 0 0 0;
+  padding: 2rem;
+  font-family: 'bpreplaybold', Arial, Helvetica, sans-serif;
+}
+
+.filters {
+  background-color: lightgray;
+}
+
+.filters h5,
+.results h5 {
+  color: gray;
+  margin-bottom: 1rem;
+}
+
+.filters div {
+  width: 100% !important;
+  margin-bottom: 1rem;
+}
+
+.filters label {
+  margin: 0;
+  font-size: 1rem;
+  color: #1f1f1f;
+  text-transform: uppercase;
+}
+
+.filters button {
+  color: white;
+}
+
+.results h5 {
+  width: 100%;
+  text-align: center;
+}
+
+.results article {
+  max-width: 20rem;
+  width: 100%;
+  height: 20rem;
+  margin: 1rem 0;
+  background-color: #d35649;
+  background-image: url(../img/dumbbell.png);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  text-align: center;
+  line-height: 20rem;
+}
+
+.results article span {
+  font-family: 'bpreplayregular', Arial, Helvetica, sans-serif;
+}
+
+.results a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.results a:hover,
+.results a:visited,
+.results a:active {
+  color: white;
+}
+
 @media screen and (min-width: 577px) {
   .head-layout {
     justify-content: space-between;
@@ -408,6 +482,21 @@ footer div:first-child {
   #top-logo {
     padding-top: 0;
     padding-left: 1rem;
+  }
+
+  .filters {
+    width: 80%;
+    border-radius: 1rem;
+    margin: 2rem auto 0;
+  }
+
+  .results {
+    justify-content: space-around;
+  }
+
+  .results article {
+    max-width: initial;
+    width: 40%;
   }
 }
 
@@ -496,6 +585,21 @@ footer div:first-child {
 
   .footer-bottom nav {
     margin: 0 20%;
+  }
+
+  .filters {
+    width: 90%;
+    border-radius: 1rem;
+    margin: 2rem auto 0;
+  }
+
+  .results {
+    justify-content: space-around;
+  }
+
+  .results article {
+    max-width: initial;
+    width: 30%;
   }
 }
 
@@ -596,5 +700,23 @@ footer div:first-child {
   .footer-bottom nav {
     margin: 0;
     width: 30%;
+  }
+
+  .filters div {
+    margin-bottom: 0;
+  }
+
+  .filters h5 {
+    text-align: center;
+  }
+
+  .filters form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .filters form div {
+    width: auto !important;
   }
 }
