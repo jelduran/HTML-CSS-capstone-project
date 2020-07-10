@@ -24,7 +24,7 @@ Building a directory inspired by the project Patashule. This time I decided to c
 
 ## Project source can be downloaded from: <https://github.com/jelduran/HTML-CSS-capstone-project>
 
-**[Live version](https://raw.githack.com/jelduran/HTML-CSS-capstone-project/feature/index.html)**
+**[Live version](https://ghcdn.rawgit.org/jelduran/HTML-CSS-capstone-project/feature/detail.html)**
   
 ## License & Copyright
 
