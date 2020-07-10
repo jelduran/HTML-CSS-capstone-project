@@ -10,7 +10,6 @@ Capstone Project for Microverse's HTML/CSS Course. Creating a web directory.
 **John Elvis Durán Montoya** [@jelduran](https://github.com/jelduran)
 
 ![Gympoint](/img/screenshot-gympoint.png)
-Format: ![Gympoint]()
 
 ### Description
 
