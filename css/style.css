@@ -17,6 +17,7 @@
 header {
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 .head-layout {
@@ -230,6 +231,12 @@ nav ul li {
   line-height: 20rem;
 }
 
+.details button {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
 .features article:first-child {
   background-color: #d35649;
 }
@@ -290,6 +297,21 @@ footer {
 .filters div {
   width: 100% !important;
   margin-bottom: 1rem;
+}
+
+.details > div {
+  width: 100%;
+}
+
+.more-details div {
+  background-color: lightgray;
+  text-align: center;
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+.map div {
+  min-height: 30rem;
 }
 
 footer div:first-child {
@@ -467,6 +489,77 @@ footer div:first-child {
   font-family: 'bpreplayregular', Arial, Helvetica, sans-serif;
 }
 
+.details,
+.more-details,
+.map {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  font-family: 'bpreplayregular', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  padding: 2rem 2rem 0;
+}
+
+.more-details {
+  padding-top: 0;
+}
+
+.details h2 {
+  color: #d35649;
+}
+
+.details .detail {
+  text-align: center;
+  line-height: 3rem;
+  margin-bottom: 0.5rem;
+  border: 0.1rem solid gray;
+  border-radius: 0.2rem;
+}
+
+.details ul span,
+.details .detail span {
+  font-weight: bolder;
+  color: #007bff;
+}
+
+.details ul {
+  width: 100%;
+  padding-top: 1rem;
+  list-style: none;
+}
+
+.more-details p {
+  text-align: justify;
+  text-transform: none;
+}
+
+.more-details h6 {
+  margin: 0;
+}
+
+.map h5 {
+  width: 100%;
+  text-align: center;
+  color: #d35649;
+}
+
+.google-map {
+  overflow: hidden;
+  padding-bottom: 56%;
+  position: relative;
+  width: 100%;
+  height: 0;
+}
+
+.google-map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 @media screen and (min-width: 577px) {
   .head-layout {
     justify-content: space-between;
@@ -498,6 +591,10 @@ footer div:first-child {
   .results article {
     max-width: initial;
     width: 40%;
+  }
+
+  .details ul {
+    padding-left: 0;
   }
 }
 
@@ -601,6 +698,37 @@ footer div:first-child {
   .results article {
     max-width: initial;
     width: 30%;
+  }
+
+  .details > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .detail {
+    width: 49%;
+  }
+
+  .details ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 0;
+    font-size: 0.9rem;
+  }
+
+  .more-details div {
+    text-align: left;
+    padding: 2rem 4rem;
+  }
+
+  .more-details h6 {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .google-map {
+    padding-bottom: 30%;
   }
 }
 
@@ -719,5 +847,23 @@ footer div:first-child {
 
   .filters form div {
     width: fit-content !important;
+  }
+
+  .details {
+    margin: 6rem 2rem 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .details button {
+    width: initial;
+    margin-left: auto;
+  }
+
+  .details ul {
+    justify-content: end;
+  }
+
+  .details ul li {
+    padding-left: 1.5rem;
   }
 }
