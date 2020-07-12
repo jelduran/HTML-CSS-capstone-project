@@ -767,6 +767,10 @@ footer div:first-child {
     padding: 3rem;
   }
 
+  .btn.button-search {
+    background-color: #d35649;
+  }
+
   .how-it-works article {
     width: 34%;
     padding: 0 4rem;
