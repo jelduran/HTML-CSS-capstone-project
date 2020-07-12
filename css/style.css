@@ -21,7 +21,7 @@ header {
 }
 
 .head-layout {
-  display: flex !important;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-around;
@@ -61,8 +61,9 @@ nav ul li {
   display: inline-block;
 }
 
-.nav-link {
-  padding: 0.5rem 1.25rem !important;
+.nav-lnk {
+  display: block;
+  padding: 0.5rem 1.25rem;
 }
 
 .nav-icon {
@@ -113,13 +114,13 @@ nav ul li {
   border-radius: 0.15rem;
 }
 
-.button-search {
+.btn.button-search {
   width: 100%;
   font-family: 'bpreplaybold', Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   text-transform: uppercase;
-  color: white !important;
-  background-color: #d35649 !important;
+  color: white;
+  background-color: #d35649;
 }
 
 .cover-button button {
@@ -227,8 +228,8 @@ nav ul li {
 .filters button {
   min-width: 8rem;
   color: white;
-  background-color: orangered !important;
-  border-color: orangered !important;
+  background-color: orangered;
+  border-color: orangered;
 }
 
 .details button {
@@ -295,7 +296,7 @@ footer {
 }
 
 .filters div {
-  width: 100% !important;
+  width: 100%;
   margin-bottom: 1rem;
 }
 
@@ -376,7 +377,7 @@ footer div:first-child {
   display: block;
   width: 100%;
   height: 100%;
-  color: white !important;
+  color: white;
 }
 
 .footer-components p > a {
@@ -600,11 +601,11 @@ footer div:first-child {
 }
 
 @media screen and (min-width: 769px) {
-  .nav-link {
+  .nav-lnk {
     font-size: 1rem;
-    padding-top: 0 !important;
-    padding-bottom: 0.5rem !important;
-    padding-left: 0 !important;
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
   }
 
   .nav-text {
@@ -631,15 +632,15 @@ footer div:first-child {
     width: 100%;
   }
 
-  .input-search {
+  .form-control.input-search {
     margin-bottom: 0;
-    border-radius: 0.25rem 0 0 0.25rem !important;
+    border-radius: 0.25rem 0 0 0.25rem;
   }
 
-  .button-search {
+  .btn.button-search {
     width: 25%;
-    border-radius: 0 0.25rem 0.25rem 0 !important;
-    background-color: #519bd7 !important;
+    border-radius: 0 0.25rem 0.25rem 0;
+    background-color: #519bd7;
   }
 
   .cover-button button {
@@ -672,13 +673,19 @@ footer div:first-child {
     margin: 0 10%;
   }
 
+  .footer-components div {
+    width: 50%;
+  }
+
+  .footer-components div:first-child {
+    width: 100%;
+  }
+
   .footer-contact {
-    width: 50% !important;
     padding: 1rem 2rem 0;
   }
 
   .footer-about {
-    width: 50% !important;
     padding: 1rem 2rem 0;
   }
 
@@ -744,7 +751,7 @@ footer div:first-child {
   }
 
   .head-layout nav ul li:last-child a {
-    padding-right: 0 !important;
+    padding-right: 0;
   }
 
   .cover-search {
@@ -756,7 +763,7 @@ footer div:first-child {
   }
 
   .how-it-works article {
-    width: 34% !important;
+    width: 34%;
     padding: 0 4rem;
   }
 
@@ -775,7 +782,11 @@ footer div:first-child {
   }
 
   .footer-components > div {
-    width: 33% !important;
+    width: 33%;
+  }
+
+  .footer-components div:first-child {
+    width: 33%;
   }
 
   .footer-nav {
@@ -824,7 +835,7 @@ footer div:first-child {
   .footer-bottom {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 10% 0 !important;
+    padding: 1rem 10% 0;
   }
 
   .footer-bottom nav {
@@ -844,10 +855,6 @@ footer div:first-child {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-  }
-
-  .filters form div {
-    width: fit-content !important;
   }
 
   .details {
