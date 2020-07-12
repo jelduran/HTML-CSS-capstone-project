@@ -20,6 +20,10 @@ header {
   z-index: 10;
 }
 
+h1 {
+  font-size: 1.45rem;
+}
+
 .head-layout {
   display: flex;
   flex-wrap: wrap;
@@ -160,7 +164,7 @@ nav ul li {
   font-size: 2rem;
 }
 
-.how-it-works h5 {
+.how-it-works h1 {
   text-transform: uppercase;
   margin: 1rem 0 0.5rem 0;
 }
@@ -469,8 +473,8 @@ footer div:first-child {
   background-color: lightgray;
 }
 
-.filters h5,
-.results h5 {
+.filters h1,
+.results h1 {
   color: gray;
   margin-bottom: 1rem;
 }
@@ -482,7 +486,7 @@ footer div:first-child {
   text-transform: uppercase;
 }
 
-.results h5 {
+.results h1 {
   width: 100%;
   text-align: center;
 }
@@ -507,7 +511,8 @@ footer div:first-child {
   padding-top: 0;
 }
 
-.details h2 {
+.details h1 {
+  font-size: 2rem;
   color: #d35649;
 }
 
@@ -540,7 +545,7 @@ footer div:first-child {
   margin: 0;
 }
 
-.map h5 {
+.map h1 {
   width: 100%;
   text-align: center;
   color: #d35649;
@@ -673,6 +678,17 @@ footer div:first-child {
     margin: 0 10%;
   }
 
+  .details > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .more-details div {
+    text-align: left;
+    padding: 2rem 4rem;
+  }
+
   .footer-components div {
     width: 50%;
   }
@@ -708,12 +724,6 @@ footer div:first-child {
     width: 30%;
   }
 
-  .details > div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
   .detail {
     width: 49%;
   }
@@ -723,11 +733,6 @@ footer div:first-child {
     justify-content: space-between;
     padding: 1rem 0 0;
     font-size: 0.9rem;
-  }
-
-  .more-details div {
-    text-align: left;
-    padding: 2rem 4rem;
   }
 
   .more-details h6 {
@@ -779,6 +784,10 @@ footer div:first-child {
 
   .feature-info h6 {
     font-size: 1.5rem;
+  }
+
+  .filters div {
+    margin-bottom: 0;
   }
 
   .footer-components > div {
@@ -843,11 +852,7 @@ footer div:first-child {
     width: 30%;
   }
 
-  .filters div {
-    margin-bottom: 0;
-  }
-
-  .filters h5 {
+  .filters h1 {
     text-align: center;
   }
 
