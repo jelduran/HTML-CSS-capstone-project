@@ -69,4 +69,4 @@ Give a ⭐️ if you like this project!
 
 ## License & Copyright
 
-John Elvis Durán, Student of Microverse.
+This work graphic design (but not the code), ["Gympoint"](https://ghcdn.rawgit.org/jelduran/HTML-CSS-capstone-project/feature/index.html), is based on ["Creative Commons PatashuleKE"](https://www.behance.net/gallery/25563385/PatashuleKE) by [Mathew Njuguna](https://www.behance.net/mathewnjuguna), [Sam Achola](https://www.behance.net/aweSam) & [Kevin Mutua](https://www.behance.net/kevinmutua), used under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0). ["Gympoint Project"](https://github.com/jelduran/HTML-CSS-capstone-project) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0) by [John Elvis Durán](https://github.com/jelduran).
