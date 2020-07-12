@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/0b914bd554.js" crossorigin="anonymous"></script>
+    <title>Gympoint Directory</title>
+</head>
+<body>
+  <div class="container-main">
+    <header>
+      <div class="head-layout">
+        <div id="top-logo">
+            <a href="index.html"><img src="img/logo_gympoint.png" alt=""></a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                  <a href="" class="nav-link white-link">
+                    <span class="nav-icon fas fa-search-location"></span>
+                    <span class="nav-text">Gyms</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="nav-link white-link">
+                    <span class="nav-icon fas fa-user"></span>
+                    <span class="nav-text">About</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="nav-link white-link">
+                    <span class="nav-icon fas fa-rss"></span>
+                    <span class="nav-text">Blog</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="nav-link white-link">
+                    <span class="nav-icon fas fa-bars"></span>
+                    <span class="nav-text">More...</span>
+                  </a>
+                </li>
+            </ul>
+        </nav>
+
+      </div>
+    </header>
+    <main class="filters">
+      <div>
+        <h1>Filter by name, area, specialty, hours, price, ranking:</h1>
+        <form>
+          <div>
+            <label for="gym">Gym name:*</label>
+            <input id="gym" type="text" class="form-control">
+          </div>
+          <div>
+            <label for="area">Area</label>
+            <select name="area" id="area" class="custom-select">
+              <option value="" selected disabled hidden label="--"></option>
+              <option value="">Westside</option>
+              <option value="">Bay</option>
+              <option value="">Hills</option>
+            </select>
+          </div>     
+          <div>
+            <label for="specialty">Specialty</label>
+            <select name="specialty" id="specialty" class="custom-select">
+              <option value="" selected disabled hidden label="--"></option>
+              <option value="">Weights</option>
+              <option value="">Aerobics</option>
+              <option value="">Crossfit</option>
+            </select>
+          </div>     
+          <div>
+            <label for="hours">Hours</label>
+            <select name="hours" id="hours" class="custom-select">
+              <option value="" selected disabled hidden label="--"></option>
+              <option value="">7/24</option>
+              <option value="">6 to 24</option>
+              <option value="">4 to 22</option>
+            </select>
+          </div>     
+          <div>
+            <label for="price">Price</label>
+            <select name="price" id="price" class="custom-select">
+              <option value="" selected disabled hidden label="--"></option>
+              <option value="">Less 50$/month</option>
+              <option value="">50 to 100/month</option>
+              <option value="">Irrelevant</option>
+            </select>
+          </div>     
+          <div>
+            <label for="ranking">Ranking</label>
+            <select name="ranking" id="ranking" class="custom-select">
+              <option value="" selected disabled hidden label="--"></option>
+              <option value="">Normal</option>
+              <option value="">VIP</option>
+              <option value="">Platinum</option>
+            </select>
+          </div>
+          <input type="submit" value="Search" class="btn btn-primary">
+          <button class="btn btn-warning"><span class="fas fa-edit"></span>Clear filter</button>
+        </form>
+      </div>
+    </main>
+    <section class="results">
+      <h1>Search Results Found 7 Gym(s).</h1>
+      <figure><a href="detail.html"><span>Name:</span> Gym One</a></figure>
+      <figure><a href="detail.html"><span>Name:</span> Gym Two</a></figure>
+      <figure><a href="detail.html"><span>Name:</span> Gym Three</a></figure>
+      <figure><a href="detail.html"><span>Name:</span> Gym Four</a></figure>
+      <figure><a href="detail.html"><span>Name:</span> Gym Five</a></figure>
+      <figure><a href="detail.html"><span>Name:</span> Gym Six</a></figure>
+      <figure><a href="detail.html"><span>Name:</span> Gym Seven</a></figure>
+    </section>
+    <footer>
+      <div class="footer-layout">
+        <nav class="footer-nav">
+          <ul>
+            <li>Home</li>
+            <li>Search</li>
+            <li>About us</li>
+            <li>Advertise</li>
+          </ul>
+          <div class="footer-decoration">
+            <figure>
+              <span class="fas fa-map-marker-alt"></span>
+            </figure>
+          </div>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Blog</li>
+            <li>Google+</li>
+          </ul>
+        </nav>
+        <div class="footer-components">
+          <div class="footer-subscribe">
+            <h6>Subscribe</h6>
+            <form class="form-subscribe" action="#">
+              <input type="text" placeholder="you@example.com">
+              <input type="submit" value="send">
+            </form>
+          </div>
+          <div class="footer-contact">
+            <h6>Contact</h6>
+            <p>Have a question or submission?<br><a href="#" class="white-link">info@gympoint.com</a></p>
+          </div>
+          <div class="footer-about">
+            <h6>About</h6>
+            <p>Gympoint is an online platform that assists people to find a suitable gym for them by simply searching by type of activity, attention hours, area, etc. <a href="#" class="white-link">Learn more...</a></p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <nav>
+            <ul>
+              <li><img src="img/facebook.svg" alt=""></li>
+              <li><img src="img/twitter.svg" alt=""></li>
+              <li><img src="img/wordpress.svg" alt=""></li>
+              <li><img src="img/google-plus.svg" alt=""></li>
+              <li><img src="img/instagram-sketched.svg" alt=""></li>
+            </ul>
+          </nav>
+          <div class="footer-copy">
+            <p>
+              &copy; Copyright John Elvis Durán - 2020
+            </p>            
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
