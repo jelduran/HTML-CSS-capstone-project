@@ -25,7 +25,48 @@ Building a directory inspired by the project Patashule. This time I decided to c
 ## Project source can be downloaded from: <https://github.com/jelduran/HTML-CSS-capstone-project>
 
 **[Live version](https://ghcdn.rawgit.org/jelduran/HTML-CSS-capstone-project/feature/index.html)**
-  
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+Use git or download files direct to your device. 
+Desktop, tablet or mobile device with a modern web browser.
+
+### Install
+
+```
+git clone https://github.com/jelduran/HTML-CSS-capstone-project.git
+```
+
+or if prefer SSH
+
+```
+git clone git@github.com:jelduran/HTML-CSS-capstone-project.git
+```
+
+### Usage
+
+Just open index.html in a browser. Click on 'search' button to see results.html and click on any of the results to see detail.html.
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/jelduran/HTML-CSS-capstone-project/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse Inc.
+- Microverse Team 113 The Colubrids
+- Microvese TSE Staff for your reviews and remarks.
+
 ## License & Copyright
 
 John Elvis Durán, Student of Microverse.
